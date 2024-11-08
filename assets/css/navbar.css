@@ -56,7 +56,7 @@
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: #e3721b;
 }
 
 /* Home section */
@@ -64,9 +64,11 @@
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url("/assets/img/sembra1.png");
+    /* background-image: url("/assets/img/sembra11.png"); */
     background-position: center top;
     background-size: cover;
+    background-repeat: no-repeat;
+    animation: home 15s ease-in-out infinite;
 }
 
 .navTrigger {
@@ -350,7 +352,7 @@
 
 .affix {
     padding: 0;
-    background-color: #29AB87;
+    background-color: #121;
 }
 
 .myH2 {
@@ -370,3 +372,11 @@
         padding: 2%;
     }
 }
+
+
+@keyframes home {
+    0% { background-image: url("/assets/img/sembra11.png"); }
+    33% { background-image: url("/assets/img/sembra1.png"); }
+    66% { background-image: url("/assets/img/sembra2.png"); }
+    100% { background-image: url("/assets/img/sembra1.png"); }
+    }
