@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SL Agro - About</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+</head>
+
+<body>
+    <nav class="nav">
+    </nav>
+    <section id="about" class="about">
+    </section>
+    <div style="height: 1000px">
+        <h2 class="myH2">SOBRE NOSOTROS</h2>
+        <p class="myP">
+            La empresa se caracteriza por la constante búsqueda de evolución del producto, para la continua satisfacción
+            de las nuevas necesidades de nuestros clientes, por lo cual durante años hemos trabajado y desarrollado el
+            sistema
+            de fabricación por extrusión blow molding, siendo pioneros en Argentina de este sistema en la utilización de
+            las
+            cubiertas de línea de siembra.</p>
+        <p class="myP">Este novedoso sistema permite lograr la fabricación de las cubiertas en una sola pieza</p>
+        <p class="myP">
+
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint
+            repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id
+            inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus
+            animi labore officiis minus laboriosam
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint
+            repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id
+            inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus
+            animi labore officiis minus laboriosam
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint
+            repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id
+            inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus
+            animi labore officiis minus laboriosam
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint
+            repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id
+            inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus
+            animi labore officiis minus laboriosam
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint
+            repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id
+            inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus
+            animi labore officiis minus laboriosam
+        </p>
+    </div>
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/navbar.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.nav').load('./navbar.html');
+        });
+    </script>
+
+    <!-- Funcion para reducir el NavBar Eliminado el padding y seteando el background -->
+    <script>
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+</body>
+
+</html>

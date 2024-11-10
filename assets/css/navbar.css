@@ -1,4 +1,4 @@
-/* Navbar */
+/* NavBar */
 
 .nav {
     width: 100%;
@@ -13,7 +13,7 @@
     width: auto;
     height: auto;
     padding-left: 3rem;
-    
+
 }
 
 .nav div.logo img {
@@ -69,6 +69,40 @@
     background-size: cover;
     background-repeat: no-repeat;
     animation: home 15s ease-in-out infinite;
+}
+
+/* About section */
+
+.about {
+    width: 100%;
+    height: 100vh;
+    /* background-image: url("/assets/img/sembra11.png"); */
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: about 15s ease-in-out infinite;
+}
+
+/* Product section */
+.products {
+    width: 100%;
+    height: 100vh;
+    /* background-image: url("/assets/img/sembra11.png"); */
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: about 15s ease-in-out infinite;
+}
+
+/* Contact section */
+.contact {
+    width: 100%;
+    height: 100vh;
+    /* background-image: url("/assets/img/sembra11.png"); */
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: about 15s ease-in-out infinite;
 }
 
 .navTrigger {
@@ -375,8 +409,57 @@
 
 
 @keyframes home {
-    0% { background-image: url("/assets/img/sembra11.png"); }
-    33% { background-image: url("/assets/img/sembra1.png"); }
-    66% { background-image: url("/assets/img/sembra2.png"); }
-    100% { background-image: url("/assets/img/sembra1.png"); }
+
+    /* 0% { background-image: url("/assets/img/sembra11.png"); } */
+    33% {
+        background-image: url("/assets/img/sembra1.png");
     }
+
+    66% {
+        background-image: url("/assets/img/sembra2.png");
+    }
+
+    /* 100% { background-image: url("/assets/img/sembra1.png"); } */
+}
+
+@keyframes about {
+
+    0% { background-image: url("/assets/img/sembra11.png"); }
+    33% {
+        background-image: url("/assets/img/sembra1.png");
+    }
+
+    66% {
+        background-image: url("/assets/img/sembra2.png");
+    }
+
+    100% { background-image: url("/assets/img/sembra1.png"); }
+}
+
+@keyframes products {
+
+    0% { background-image: url("/assets/img/sembra11.png"); }
+    33% {
+        background-image: url("/assets/img/sembra1.png");
+    }
+
+    66% {
+        background-image: url("/assets/img/sembra2.png");
+    }
+
+    100% { background-image: url("/assets/img/sembra1.png"); }
+}
+
+@keyframes contact {
+
+    0% { background-image: url("/assets/img/sembra11.png"); }
+    33% {
+        background-image: url("/assets/img/sembra1.png");
+    }
+
+    66% {
+        background-image: url("/assets/img/sembra2.png");
+    }
+
+    100% { background-image: url("/assets/img/sembra1.png"); }
+}
