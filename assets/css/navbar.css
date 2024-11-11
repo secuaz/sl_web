@@ -63,7 +63,7 @@
 
 .home {
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     /* background-image: url("/assets/img/sembra11.png"); */
     background-position: center top;
     background-size: cover;
@@ -410,16 +410,10 @@
 
 @keyframes home {
 
-    /* 0% { background-image: url("/assets/img/sembra11.png"); } */
-    33% {
-        background-image: url("/assets/img/sembra1.png");
-    }
-
-    66% {
-        background-image: url("/assets/img/sembra2.png");
-    }
-
-    /* 100% { background-image: url("/assets/img/sembra1.png"); } */
+    0% { background-image: url("/assets/img/siembra1gris.jpg"); }
+    33% { background-image: url("/assets/img/siembra1sepia.jpg"); }
+    66% { background-image: url("/assets/img/siembra1.jpg"); }
+    100% { background-image: url("/assets/img/siembra1gris.jpg"); }
 }
 
 @keyframes about {
