@@ -5,6 +5,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: space-between;
+    gap: 5em;
 }
 
 .card {
@@ -25,6 +26,7 @@
 }
 
 .card-container {
+    display: flexbox;
     border-style: solid;
     padding-left: 0.2em;
     margin: 10px auto;
