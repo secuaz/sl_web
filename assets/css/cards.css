@@ -25,6 +25,13 @@
     object-fit: cover;
 }
 
+.card button{
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
 .card-container {
     display: flexbox;
     border-style: solid;

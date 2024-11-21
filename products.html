@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/cards.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
 
 </head>
 
@@ -25,21 +26,48 @@
             rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque.
         </p>
         <div class="card-list">
+
+            <!-- TARJETA -->
             <div class="card">
-                <img src="assets/img/cub/218.png" alt="Cubierta dos y un octavo por quince">
+                <button id="modalBtn" class="modalBtn">
+                    <img src="assets/img/cub/218.png" alt="Cubierta dos y un octavo por quince">
+                </button>
                 <div class="card-container">
                     <h4><b>2 1/8 x 15</b></h4>
                     <p>Otra linea</p>
                 </div>
             </div>
+            <!-- MODAL -->
+            <div class="modal" id="modal">
+                <div id="modal-content">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Some text in the Modal..</p>
+                        <img src="assets/img/tec/Tec218.png" alt="">
+                    </div>
+                </div>
+            </div>
 
+            <!-- TARJETA -->
             <div class="card">
-                <img src="assets/img/cub/212.png" alt="Cubierta dos y medio por quince">
+                <button id="modalBtn" class="modalBtn">
+                    <img src="assets/img/cub/212.png" alt="Cubierta dos y medio por quince">
+                </button>
                 <div class="card-container">
                     <h4><b>2 1/2 x 15</b></h4>
                     <p>Otra linea</p>
                 </div>
             </div>
+            <div class="modal" id="modal">
+                <div id="modal-content">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Cubierta 2 1/2 x 15</p>
+                        <img src="assets/img/tec/Tec212.png" alt="">
+                    </div>
+                </div>
+            </div>
+
 
             <div class="card">
                 <img src="assets/img/cub/278.png" alt="Cubierta dos y siete octavos por quince">
@@ -81,6 +109,7 @@
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="assets/js/navbar.js"></script>
+    <!-- <script src="assets/js/modal.js"></script> -->
 
     <script>
         $(document).ready(function () {
@@ -98,6 +127,18 @@
                 $('.nav').removeClass('affix');
             }
         });
+    </script>
+    <script>
+        let buttons = document.querySelectorAll(".card-list .card button")
+
+        buttons.forEach(button => {
+            button.addEventListener("click", _ => {
+                buttons.forEach(button => {
+                    button.classList.remove("selectedBtn");
+                })
+                button.classList.toggle("selectedBtn");
+            })
+        })
     </script>
 
 </html>

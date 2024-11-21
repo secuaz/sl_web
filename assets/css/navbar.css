@@ -63,43 +63,43 @@
 
 .home {
     width: 100%;
-    height: 85vh;
+    height: 45vh;
     /* background-image: url("/assets/img/sembra11.png"); */
-    background-position: center top;
+    background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    animation: home 15s ease-in-out infinite;
+    animation: home 60s ease-in-out infinite;
 }
 
 /* About section */
 
 .about {
     width: 100%;
-    height: 100vh;
-    /* background-image: url("/assets/img/sembra11.png"); */
-    background-position: center top;
+    height: 45vh;
+    background-image: url("/assets/img/sembra11reflejada1652-3.png");
+    background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    animation: about 15s ease-in-out infinite;
+    /* animation: about 15s ease-in-out infinite; */
 }
 
 /* Product section */
 .products {
     width: 100%;
-    height: 100vh;
-    /* background-image: url("/assets/img/sembra11.png"); */
-    background-position: center top;
-    background-size: cover;
+    height: 45vh;
+    background-image: url("/assets/img/Deposito-1gris.jpg");
+    background-position: center bottom;
+    background-size: 105%;
     background-repeat: no-repeat;
-    animation: about 15s ease-in-out infinite;
+    /* animation: about 15s ease-in-out infinite; */
 }
 
 /* Contact section */
 .contact {
     width: 100%;
-    height: 100vh;
+    height: 45vh;
     /* background-image: url("/assets/img/sembra11.png"); */
-    background-position: center top;
+    background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
     animation: about 15s ease-in-out infinite;
@@ -130,7 +130,13 @@
     }
 
     .nav div.logo {
-        margin-left: 15px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .nav div.logo img {
+        max-height: 6.5rem;
+        /* padding-top: 3px; */
     }
 
     .nav div.main_list {
@@ -152,7 +158,7 @@
         left: 0;
         bottom: 0;
         background-color: #111111;
-        /*same background color of navbar*/
+        /*Mismo background color que el navbar*/
         background-position: center top;
     }
 
@@ -409,16 +415,28 @@
 
 
 @keyframes home {
+    0% {
+        background-image: url("/assets/img/siembra1gris1652.jpg");
+    }
 
-    0% { background-image: url("/assets/img/siembra1gris.jpg"); }
-    33% { background-image: url("/assets/img/siembra1sepia.jpg"); }
-    66% { background-image: url("/assets/img/siembra1.jpg"); }
-    100% { background-image: url("/assets/img/siembra1gris.jpg"); }
+    33% {
+        background-image: url("/assets/img/siembra1sepia1652.jpg");
+    }
+
+    66% {
+        background-image: url("/assets/img/siembra11652.jpg");
+    }
+
+    100% {
+        background-image: url("/assets/img/siembra1gris1652.jpg");
+    }
 }
 
-@keyframes about {
+/* @keyframes about {
+    0% {
+        background-image: url("/assets/img/sembra11.png");
+    }
 
-    0% { background-image: url("/assets/img/sembra11.png"); }
     33% {
         background-image: url("/assets/img/sembra1.png");
     }
@@ -427,26 +445,23 @@
         background-image: url("/assets/img/sembra2.png");
     }
 
-    100% { background-image: url("/assets/img/sembra1.png"); }
-}
-
-@keyframes products {
-
-    0% { background-image: url("/assets/img/sembra11.png"); }
-    33% {
+    100% {
         background-image: url("/assets/img/sembra1.png");
     }
+} */
 
-    66% {
-        background-image: url("/assets/img/sembra2.png");
-    }
-
-    100% { background-image: url("/assets/img/sembra1.png"); }
-}
+/* @keyframes products {
+    0% { background-image: url("/assets/img/bigperf.png"); }
+    33% { background-image: url("/assets/img/bigperf.png"); }
+    66% { background-image: url("/assets/img/bigperf.png"); }
+    100% { background-image: url("/assets/img/bigperf.png"); }
+} */
 
 @keyframes contact {
+    0% {
+        background-image: url("/assets/img/sembra11.png");
+    }
 
-    0% { background-image: url("/assets/img/sembra11.png"); }
     33% {
         background-image: url("/assets/img/sembra1.png");
     }
@@ -455,5 +470,7 @@
         background-image: url("/assets/img/sembra2.png");
     }
 
-    100% { background-image: url("/assets/img/sembra1.png"); }
+    100% {
+        background-image: url("/assets/img/sembra1.png");
+    }
 }
