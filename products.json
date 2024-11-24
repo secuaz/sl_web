@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "productCode": "09.750",
+        "productName": "2 ⅛'' x 15''",
+        "altDescription": "Cubierta dos y un octavo por quince",
+        "imgFile": "/assets/img/cub/218.png",
+        "imgTec": "/assets/img/tec/tec218.png",
+        "width": "74mm",
+        "diameter": "395mm"
+    },
+    {
+        "id": 2,
+        "productCode": "09.760",
+        "productName": "2 ½'' x 15''",
+        "altDescription": "Cubierta dos y medio por quince",
+        "imgFile": "/assets/img/cub/212.png",
+        "imgTec": "/assets/img/tec/tec218.png",
+        "width": "74mm",
+        "diameter": "395mm"
+    },
+    {
+        "id": 3,
+        "productCode": "09.730",
+        "productName": "2 ⅞'' x 15''",
+        "altDescription": "Cubierta dos y siete octavos por quince",
+        "imgFile": "/assets/img/cub/278.png",
+        "imgTec": "/assets/img/tec/tec218.png",
+        "width": "74mm",
+        "diameter": "395mm"
+    },
+    {
+        "id": 1,
+        "productCode": "09.810",
+        "productName": "3 ½'' x 15''",
+        "altDescription": "Cubierta tres y medio por quince",
+        "imgFile": "/assets/img/cub/312.png",
+        "imgTec": "/assets/img/tec/tec218.png",
+        "width": "74mm",
+        "diameter": "395mm"
+    },
+    {
+        "id": 1,
+        "productCode": "09.770",
+        "productName": "4 ½'' x 15'' Ref.",
+        "altDescription": "Cubierta cuatro y medio por quince reforzada",
+        "imgFile": "/assets/img/cub/412Ref.png",
+        "imgTec": "/assets/img/tec/tec218.png",
+        "width": "74mm",
+        "diameter": "395mm"
+    },
+    {
+        "id": 1,
+        "productCode": "09.800",
+        "productName": "4 ½'' x 15'' JD",
+        "altDescription": "Cubierta dos y un octavo por quince",
+        "imgFile": "/assets/img/cub/412JD.png",
+        "imgTec": "/assets/img/tec/tec218.png",
+        "width": "74mm",
+        "diameter": "395mm"
+    }
+]

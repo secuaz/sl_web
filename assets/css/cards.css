@@ -25,11 +25,12 @@
     object-fit: cover;
 }
 
-.card button{
+.card a {
     width: inherit;
     height: inherit;
     border-radius: 40px;
     object-fit: cover;
+    background: content-box;
 }
 
 .card-container {
