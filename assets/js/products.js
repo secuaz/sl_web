@@ -6,7 +6,7 @@ fetch('../../products.json')
             const productHTML = `
         <!-- TARJETA -->
             <div class="card">
-                <a id="modalBtn" class="btn" href="#open-modal">
+                <a id="modalBtn-${product.id}" class="btn" href="#open-modal-${product.id}">
                     <img src="${product.imgFile}" alt="${product.altDescription}">
                 </a>
                 <div class="card-container">
@@ -16,7 +16,7 @@ fetch('../../products.json')
             </div>
 
         <!-- MODAL -->
-        <div id="open-modal" class="modal-window">
+        <div id="open-modal-${product.id}" class="modal-window">
             <div>
                 <a href="#" title="Cerrar" class="modal-close">Close</a>
 

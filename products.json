@@ -30,7 +30,7 @@
         "diameter": "395mm"
     },
     {
-        "id": 1,
+        "id": 4,
         "productCode": "09.810",
         "productName": "3 ½'' x 15''",
         "altDescription": "Cubierta tres y medio por quince",
@@ -40,7 +40,7 @@
         "diameter": "395mm"
     },
     {
-        "id": 1,
+        "id": 5,
         "productCode": "09.770",
         "productName": "4 ½'' x 15'' Ref.",
         "altDescription": "Cubierta cuatro y medio por quince reforzada",
@@ -50,7 +50,7 @@
         "diameter": "395mm"
     },
     {
-        "id": 1,
+        "id": 6,
         "productCode": "09.800",
         "productName": "4 ½'' x 15'' JD",
         "altDescription": "Cubierta dos y un octavo por quince",
