@@ -1,6 +1,6 @@
 <div class="containerNav">
     <div class="logo">
-        <img src="assets/img/sl_logo.png" alt="Logo de la empresa SL Agro">
+        <img src="assets/img/sl_logo.png" alt="Logo SL Agro">
     </div>
     <div id="mainListDiv" class="main_list">
         <ul class="navlinks">
@@ -23,7 +23,16 @@
         class="whatsapp-button" 
         data-bs-toggle="tooltip"
         title="Ir a WhatsApp">
-        <i class="bi bi-whatsapp"></i>
+        <!-- <i class="bi bi-whatsapp"></i> -->
     </a>
 </div>
 
+<script>
+    $('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
+});
+</script>
