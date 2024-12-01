@@ -18,7 +18,7 @@ fetch('../../products.json')
         <!-- MODAL -->
         <div id="open-modal-${product.id}" class="modal-window">
             <div>
-                <a href="#" title="Cerrar" class="modal-close">Close</a>
+                <a href="#" title="Cerrar" class="modal-close">X</a>
 
                         <div class="modal-content">
                             <div class="content-img">
@@ -52,7 +52,7 @@ fetch('../../products.json')
                                             </tr>
                                         </table>
                                     </div>
-                                    <div>
+                                    <div class="tec-img">
                                         <a rel="lightbox" href="#"> 
                                             <img src="${product.imgTec}">
                                         </a>
@@ -63,6 +63,8 @@ fetch('../../products.json')
             </div>
         </div>
         `;
-            document.getElementById('card-list').innerHTML += productHTML;
+            if (product.is_active === true) {
+                document.getElementById('card-list').innerHTML += productHTML;
+            }
         });
     });

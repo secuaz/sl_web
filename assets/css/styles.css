@@ -75,4 +75,93 @@ body {
     font-size: 35px; /* Ajusta el tamaño del ícono */
 }
 
+.map {
+    padding-top: 18em;
+    text-align: center;
+    height: 600px;
+    font-family: "Roboto", sans-serif;
+    align-content: center;
+}
 
+.map h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+.map h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.4em;
+}
+
+.map p {
+    font-size: 1.5em;
+}
+
+.map-container {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.map-contact {
+    text-align: left;
+    width: 20%;
+    padding-left: 5%;
+}
+
+.map-contact p {
+    margin-left: 1em;
+}
+
+.map iframe {
+    padding: 2em;
+    border-radius: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        height: fit-content;
+    }
+
+    .map {
+        display: flex;
+        flex-direction: column;
+        /* height: 300px; */
+        margin-top: 10em;
+        padding-top: 0em;
+        justify-items: center;
+    }
+
+    .map-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: normal;
+        align-items: normal;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: auto;
+    }
+
+    .map-contact {
+        width: 100%;
+        padding: 0%;
+        justify-items: center;
+    }
+
+    .map-iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .map iframe{
+        padding: 0px;
+        width: fit-content;
+    }
+
+    .list-contact {
+        display: flex;
+    }
+
+}

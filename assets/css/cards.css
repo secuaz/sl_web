@@ -1,11 +1,14 @@
 .card-list {
     z-index: 0;
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: space-between;
-    gap: 5em;
+    row-gap: 7em;
+    column-gap: 2.5em;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .card {
@@ -22,7 +25,7 @@
     width: inherit;
     height: inherit;
     border-radius: 40px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .card a {
@@ -36,8 +39,10 @@
 .card-container {
     display: flexbox;
     border-style: solid;
+    border-radius: 10px;
     padding-left: 0.2em;
     margin: 10px auto;
+    text-align: center;
 }
 
 .card-container h4 {
