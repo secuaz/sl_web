@@ -119,6 +119,15 @@ body {
     border-radius: 40px;
 }
 
+.product-section img {
+    z-index: 0;
+    display: flex;
+    float: right;
+    height: 15em;
+    margin-right: 2em;
+    padding-top: 35em;
+}
+
 @media screen and (max-width: 768px) {
     .main {
         height: fit-content;
@@ -164,4 +173,12 @@ body {
         display: flex;
     }
 
+    .product-section img {
+        z-index: 0;
+        display: flex;
+        float: right;
+        height: 10em;
+        margin-right: 2em;
+        padding-top: 32 em;
+    }
 }
