@@ -79,19 +79,6 @@
     },
     {
         "id": 7,
-        "productCode": "09.820",
-        "productName": "3'' x 13'' JD",
-        "altDescription": "Cubierta tres por trece JD",
-        "imgWheel": "/assets/img/wheel/wheel313JD_transparente.png",
-        "imgFile": "/assets/img/cub/313recortado.png",
-        "imgTec": "/assets/img/tec/tec218.png",
-        "imgAll": "/assets/img/all/all313JD.jpg",
-        "width": "74mm",
-        "diameter": "395mm",
-        "is_active": true
-    },
-    {
-        "id": 8,
         "productCode": "09.790",
         "productName": "4 ½'' x 15'' Ref. Monodisco",
         "altDescription": "Cubierta cuatro y medio por quince reforzada monodisco",
@@ -102,5 +89,19 @@
         "width": "74mm",
         "diameter": "395mm",
         "is_active": true
+    },
+    {
+        "id": 8,
+        "productCode": "09.820",
+        "productName": "3'' x 13'' JD",
+        "altDescription": "Cubierta tres por trece JD",
+        "imgWheel": "/assets/img/wheel/wheel313JD_transparente.png",
+        "imgFile": "/assets/img/cub/313recortado.png",
+        "imgTec": "/assets/img/tec/tec218.png",
+        "imgAll": "/assets/img/all/all313JD.jpg",
+        "width": "74mm",
+        "diameter": "395mm",
+        "is_active": true
     }
+
 ]

@@ -1,0 +1,36 @@
+/* slideshow styles */
+.slideshow {
+    width: 400px;
+    height: 300px;
+    margin: 3em auto;
+    overflow: hidden;
+    border: 3px solid #f2f2f2;
+}
+
+.slideshow ul {
+    width: 400%;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.slideshow li {
+    float: left;  
+}
+
+.listDetail {
+    height: auto;
+    text-align: justify;
+    margin: 0px;
+    padding-left: 17%;
+    padding-right: 15%;
+    font-size: 20px;
+    list-style: circle;
+    overflow: hidden;
+}
+
+.listDetail li {
+    float: right;
+    list-style-position: outside;
+}
